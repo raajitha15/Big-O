@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class Min_Max 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println(Integer.MAX_VALUE);
+		System.out.println(Integer.MIN_VALUE);
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter a value");
+		int a=sc.nextInt();
+		System.out.println("enter b value");
+		int b=sc.nextInt();
+		if(a>b)
+		{
+			System.out.println("a is greater than b");
+		}
+		else if(a<b)
+		{
+			System.out.println("a is smaller than b");
+		}
+	}
+}
